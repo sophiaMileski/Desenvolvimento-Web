@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LanchoneteSoph</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+        <header><img id="hamburgui" src="./imagens/hamburgui.jpeg"> 
+            LanchoneteSoph
+            
+        <nav>
+            <div class="topnav">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Cardápio</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#Bebidas">Bebidas</a>
+                      <a href="#Doces">Doces</a>
+                      <a href="#Prato Feito">Prato Feito</a>
+                    </div>
+                  </div>
+                
+                <a href="#Promoções">Promoções</a>
+                <a href="#Sobre">Sobre Nós</a>
+                <a href="#Localização">Localização</a>
+                
+                <a href="#Contato">Contato</a>
+              </div>
+            </nav>
+    
+    </header>
+
+    <body>
+
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="imagens/Super.png" style="width:100%">
+          <div class="text">Venha</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="imagens/sandui.png" style="width:100%">
+          <div class="text">Experimentar</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="imagens/pastel queijo.png" style="width:100%">
+          <div class="text"> Tudo!</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+
+    
+    
+
+    <section id="Cardápio">
+        <h1>Cardápio do dia</h1>
+        <p>Venha nos visitar e experimentar as delícias de hoje.</p>
+        <div id="container">
+          <div class="item">
+              <img src="imagens/Coxinha.jfif" alt="Coxinha de frango">
+              <p>Coxinha de frango R$19,99</p>
+          </div>
+          <div class="item">
+              <img src="imagens/sanduiche.jpg" alt="Sanduíche">
+              <p>Sanduíche R$9,99</p>
+          </div>
+          <div class="item">
+              <img src="imagens/batatafrita.jpg" alt="Batata Frita">
+              <p>Batata Frita R$22,00</p>
+          </div>
+      </div>
+    </section>
+
+    <section id="Bebidas">
+      <h2>Bebidas</h2>
+      <div id="flex_bebidas">
+          <div class="item">
+              <img src="imagens/Iced Tea Morango.jpg" alt="Iced Tea Morango">
+              <p>Iced Tea Morango R$14,99</p>
+          </div>
+          <div class="item">
+              <img src="imagens/limonada suiça.jpg" alt="Limonada Suíça">
+              <p>Limonada Suíça R$9,99</p>
+          </div>
+          <div class="item">
+              <img src="imagens/suco de laranja.jpg" alt="Suco de Laranja">
+              <p>Suco de Laranja R$22,00</p>
+          </div>
+      </div>
+  </section>
+  <section id="Doces">
+    <h2>Doces</h2>
+    <div id="docinho">
+        <div class="item">
+            <img src="imagens/açaí.jpg" alt="Açaí">
+            <p>Açaí 200ml R$14,99</p>
+        </div>
+        <div class="item">
+            <img src="imagens/doces finos bombom.jpg" alt="Doces Finos Bombom">
+            <p>Doces Finos BomBom R$4,99</p>
+        </div>
+        <div class="item">
+            <img src="imagens/torta de morango.jpg" alt="Torta de Morango">
+            <p>Torta de Morango R$14,99</p>
+        </div>
+    </div>
+    <p>Todas por um preço super acessível!</p>
+</section>
+
+<section id="Promoções">
+  <h2>Promoções</h2>
+  <div id="agora">
+      <div class="item">
+          <img src="imagens/bolinho de batata promoção.jpg" alt="Bolinho de Batata">
+          <p>Bolinho De Batata de R$3,00 por R$2,50</p>
+      </div>
+      <div class="item">
+          <img src="imagens/xis promoção.jpg" alt="Xis">
+          <p>Xis Tudo de R$22,00 por R$20,00</p>
+      </div>
+      <div class="item">
+          <img src="imagens/pao de queijo promoção.jpg" alt="Pão de Queijo">
+          <p>Pão de Queijo de R$2,00 por R$1,50</p>
+      </div>
+  </div>
+  <p>Todas por um preço super acessível!</p>
+</section>
+    <section id="Sobre">
+        <h2>Sobre Nós</h2>
+        <div id="nós">
+            <div class="item">
+                <img src="imagens/sophia.jfif" alt="sophia">
+                <p>Presidente Da LanchoneteSoph</p>
+            </div>
+            <div class="item">
+                <img src="imagens/julia2.jfif" alt="julia">
+                <p>Vice Presidente Da LanchoneteSoph</p>
+            </div>
+           </div>
+    </section>
+    <section id="local">
+        <h2>Localização</h2>
+        <div id="contate">
+            <div class="item">
+        <p> <a href="https://www.google.com.br/maps/place/Barrac%C3%A3o-RS/@-27.6781724,-51.4603823,677m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94e22db1ceb16c69:0xd4ace63a60e15b14!8m2!3d-27.6781772!4d-51.4578074!16s%2Fg%2F11st7953s1?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D">
+          Barracão RS
+        </a></p>
+        <div class="bugi">
+         <a href="https://www.google.com.br/maps/place/Barrac%C3%A3o-RS/@-27.6781724,-51.4603823,677m/data=!3m2!1e3!4b1!4m6!3m5!1s0x94e22db1ceb16c69:0xd4ace63a60e15b14!8m2!3d-27.6781772!4d-51.4578074!16s%2Fg%2F11st7953s1?entry=ttu&g_ep=EgoyMDI0MTAwMi4xIKXMDSoASAFQAw%3D%3D" ><img src="imagens/hamburgui.jpeg" alt="hambur"></a>
+    </div>
+    </div>
+    </section>
+    <section id="PratoFeito">
+        <h2>Prato Feito</h2>
+        <div id = "nahora">
+        <img style="max-width: 200px;" src="imagens/prato feito 2.png"> 
+        </div>
+        <ul>
+          <li>Arroz</li>
+          <li>Feijão</li>
+          <li>Carne de Gado</li>
+          <li>Batata Frita</li>
+          <li>Saladas Diversas</li>
+          <li>Suco de 200ml de Laranja</li>
+        </ul>
+    </section>
+    
+
+    <section id="Contato">
+        <h2>Contato</h2>
+        <div id="contate">
+            <div class="numero">
+        <p>Entre em contato conosco pelas nossas redes sociais e número para contato.</p>
+    </div>
+    <div class="insta">
+      <img src="imagens/logo-instagram-png-fundo-transparente13.webp" alt="insta" >
+      <img src="imagens/whatsapp-logo-1.png" alt="whats">
+    </div>
+    </div>
+    </section>
+
+    <footer>
+      <section id="fim">
+      
+      <div class="logo">
+        <img src="imagens/hamburgui.jpeg">
+      </div>
+      
+        <p>Sabor caseiro, todo dia!</p>
+  
+      </section>
+</footer>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+        
+    
+    
+</body>
+</html>
