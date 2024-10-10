@@ -207,9 +207,25 @@ section h2{
 #nahora{
  /* float: left;
   margin-right: 20px;*/
-  position: relative;
-  width: 100%;
+  /* position: relative;
+  width: 100%; */
 }
+
+#nahora-novo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover; 
+  max-width: 1200px; 
+  padding: 20px;
+  background-color: #F5EC86;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(10, 10, 10, 0.1);
+  overflow: hidden;
+  width: 300px;
+  flex-grow: 1; 
+  text-align: center;
+}
+
 
  ul {
   font-size: 25px;
@@ -285,7 +301,14 @@ section h2{
   /* padding-bottom: 100px; */
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
  
+}
+
+#PratoFeito h2 {
+  width: 100%;
+  height: fit-content;
+  display: inline;
 }
 
 
